@@ -1,0 +1,1 @@
+This sub repository consists of all the exercises and files of Assignment 2
