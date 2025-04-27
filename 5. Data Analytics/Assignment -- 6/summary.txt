@@ -1,1 +1,0 @@
-This sub repository consists of all the files for Assignment 6
