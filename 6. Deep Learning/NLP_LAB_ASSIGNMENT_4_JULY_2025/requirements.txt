@@ -1,4 +1,6 @@
 streamlit
 spacy
 joblib
-nltk.corpus
+nltk
+scikit-learn
+pandas
