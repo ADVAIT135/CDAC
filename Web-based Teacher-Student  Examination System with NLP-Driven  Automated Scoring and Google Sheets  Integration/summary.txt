@@ -1,0 +1,3 @@
+This sub repositry consists of all the files needed for CDAC End Project -- Web-based Teacher-Student Examination System with NLP-Driven Automated Scoring and Google Sheets 
+Integration
+
