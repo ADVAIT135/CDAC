@@ -1,0 +1,20 @@
+<!DOCTYPE html><html>
+<head>
+  <meta charset="UTF-8"><title>Teacher Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head><body>
+  <div class="container">
+    <h2>Create Questions</h2>
+    <form id="qForm">
+      <input name="numQ" type="number" min="1" placeholder="How many questions?" required>
+      <div id="qBlocks"></div>
+      <button type="submit">Save</button>
+    </form>
+  </div>
+  <script type="module">
+    import { initTeacherDash } from './js/main.js';
+    window.addEventListener('DOMContentLoaded', () => {
+      initTeacherDash();
+    });
+  </script>
+</body></html>

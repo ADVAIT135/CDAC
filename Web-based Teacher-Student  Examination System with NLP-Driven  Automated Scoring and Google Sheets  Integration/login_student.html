@@ -1,0 +1,19 @@
+<!DOCTYPE html><html>
+<head>
+  <meta charset="UTF-8"><title>Student Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head><body>
+  <div class="container">
+    <h2>Student Login</h2>
+    <form id="studentLoginForm">
+      <input name="email" type="email" placeholder="Your email" required>
+      <button type="submit">Start Exam</button>
+    </form>
+  </div>
+  <script type="module">
+    import { studentLogin } from './js/main.js';
+    window.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('studentLoginForm').onsubmit = studentLogin;
+    });
+  </script>
+</body></html>

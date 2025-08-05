@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Exam</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Exam</h2>
+    <form id="examForm">
+     
+      <div class="submit-block" style="margin-top: 1em;">
+        <button type="submit">Submit Answers</button>
+      </div>
+    </form>
+
+    <div id="results"></div>
+  </div>
+
+  <script type="module">
+    import { initStudentExam } from './js/main.js';
+    window.addEventListener('DOMContentLoaded', () => {
+      initStudentExam();
+    });
+  </script>
+</body>
+</html>
