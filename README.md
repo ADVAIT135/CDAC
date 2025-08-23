@@ -25,14 +25,14 @@ The CDAC repository is a collection of learning artifacts, assignments, lab work
 ## Repository Structure
 
 ```
-.
 ├── 1. Programming Fundamentals/
 ├── 2. Data Structures/
 ├── 3. AI TRENDS/
 ├── 4. Machine Learning/
 ├── 5. Natural Language Processing/
 ├── 6. Deep Learning/
-└── README.md
+├── Web-based Teacher-Student Examination System/
+└── README.m
 ```
 
 > Each directory contains module-specific assignments, lab exercises, and (where applicable) supplementary documentation.
@@ -47,6 +47,8 @@ The CDAC repository is a collection of learning artifacts, assignments, lab work
 - **Machine Learning:** Hands-on labs, projects, and theory in supervised/unsupervised learning.
 - **Natural Language Processing:** Exercises and projects on language modeling, text analytics, and NLP tools.
 - **Deep Learning:** Neural network assignments, coding labs, and experiments.
+- **Web-based Teacher-Student Examination System:** Comprehensive system integrating NLP and Google Sheets for automated assessment.
+
 
 ---
 
