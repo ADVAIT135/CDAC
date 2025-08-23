@@ -31,8 +31,10 @@ The CDAC repository is a collection of learning artifacts, assignments, lab work
 ├── 4. Machine Learning/
 ├── 5. Natural Language Processing/
 ├── 6. Deep Learning/
+├── 7. Java Programming/
+├── 8. Computer Vision and Image Processing/
 ├── Web-based Teacher-Student Examination System/
-└── README.m
+└── README.md
 ```
 
 > Each directory contains module-specific assignments, lab exercises, and (where applicable) supplementary documentation.
