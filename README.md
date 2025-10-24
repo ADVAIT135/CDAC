@@ -6,6 +6,7 @@ This repository contains comprehensive coursework, assignments, lab exercises, a
 
 ## Table of Contents
 
+- [Certificates](#certificates)
 - [About](#about)
 - [Repository Structure](#repository-structure)
 - [Major Modules](#major-modules)
@@ -13,6 +14,14 @@ This repository contains comprehensive coursework, assignments, lab exercises, a
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+
+---
+
+## Certificates
+-- [CDAC PGDAI CERTIFICATE](https://github.com/ADVAIT135/CDAC/blob/653e78969f1a42d531454ed6ee156733456cd969/CDAC%20PGDAI%20CERTIFICATE%20.pdf)
+
+-- [CDAC PGDAI PERFORMANCE STATEMENT](https://github.com/ADVAIT135/CDAC/blob/653e78969f1a42d531454ed6ee156733456cd969/CDAC%20PGDAI%20PERFORMANCE%20STATEMENT.pdf)
+
 
 ---
 
