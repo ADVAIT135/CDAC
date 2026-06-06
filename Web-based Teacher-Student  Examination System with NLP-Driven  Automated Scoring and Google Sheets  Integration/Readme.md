@@ -1,5 +1,9 @@
 # Web-based Teacher-Student Examination System with NLP-Driven Automated Scoring and Google Sheets Integration
 
+<p align="left"> 
+  <img src="https://github.com/ADVAIT135/CDAC/blob/c560bfcad80156bd0d97d66cc78b69bcfdfe1867/Web-based%20Teacher-Student%20%20Examination%20System%20with%20NLP-Driven%20%20Automated%20Scoring%20and%20Google%20Sheets%20%20Integration/NLP_SCORE.png" / height ="500"/ width="900">
+</p>
+
 ## 📋 Project Overview
 A comprehensive web-based examination system that leverages Natural Language Processing (NLP) for automated answer evaluation and integrates with Google Sheets for efficient data management. This system bridges the gap between traditional examination methods and modern technology, providing an efficient solution for both teachers and students.
 
