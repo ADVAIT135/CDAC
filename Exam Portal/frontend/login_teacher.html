@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Teacher login · Exam Portal</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-role="teacher">
+<header class="bar" id="bar"><a class="brand" href="index.html">Exam Portal</a></header>
+<main>
+<div class="card" style="max-width:440px;margin:24px auto">
+  <h1>Teacher login</h1>
+  <p class="muted">Log in to create questions.</p>
+  <div id="msg" class="msg" role="status" aria-live="polite"></div>
+  <form id="form">
+    <div class="field"><label for="email">Email</label><input id="email" type="email" autocomplete="username" required></div>
+    <div class="field"><label for="password">Password</label><input id="password" type="password" autocomplete="current-password" required></div>
+    <button class="btn primary block" type="submit">Log in</button>
+  </form>
+</div>
+</main>
+<script type="module" src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Student login · Exam Portal</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-role="student">
+<header class="bar" id="bar"><a class="brand" href="index.html">Exam Portal</a></header>
+<main>
+<div class="card" style="max-width:440px;margin:24px auto">
+  <h1>Student login</h1>
+  <p class="muted">Enter the email address your teacher registered for you.</p>
+  <div id="msg" class="msg" role="status" aria-live="polite"></div>
+  <form id="form">
+    <div class="field"><label for="email">Email</label><input id="email" type="email" autocomplete="email" required></div>
+    <button class="btn primary block" type="submit">Start exam</button>
+  </form>
+</div>
+</main>
+<script type="module" src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Exam · Exam Portal</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="bar" id="bar"><a class="brand" href="index.html">Exam Portal</a></header>
+<main>
+<h1 id="title">Exam</h1>
+<p class="summary" id="summary" aria-live="polite"></p>
+<div id="msg" class="msg" role="status" aria-live="polite"></div>
+<form id="form">
+  <div id="questions"></div>
+  <div class="row end" id="actions" hidden><button class="btn primary" id="submit" type="submit">Submit answers</button></div>
+</form>
+<div id="results"></div>
+<dialog id="confirm"><form method="dialog">
+  <h2>Submit your answers?</h2><p id="confirm-text"></p>
+  <div class="row end"><button class="btn" value="no">Keep editing</button><button class="btn primary" value="yes">Submit</button></div>
+</form></dialog>
+</main>
+<script type="module" src="js/student.js"></script>
+</body>
+</html>

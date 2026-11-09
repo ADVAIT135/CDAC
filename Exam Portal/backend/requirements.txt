@@ -1,0 +1,5 @@
+flask>=3.0,<4
+flask-cors>=4.0
+gunicorn>=22.0
+requests>=2.31
+fastembed>=0.7

@@ -1,0 +1,17 @@
+# Render Blueprint: New + > Blueprint, point it at this repo. Fill in the secrets when prompted.
+services:
+  - type: web
+    name: exam-portal-api
+    runtime: docker
+    plan: free
+    rootDir: backend
+    healthCheckPath: /api/health
+    envVars:
+      - key: APPS_SCRIPT_URL
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: APPS_SCRIPT_SECRET
+        sync: false
+      - key: SECRET_KEY
+        generateValue: true
